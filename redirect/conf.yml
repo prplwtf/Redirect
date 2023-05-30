@@ -6,7 +6,7 @@
 name: "Redirect"
 identifier: "redirect"
 description: "Create URL redirects in seconds."
-flags: ""
+flags: "-run.afterinstall;"
 version: "1.0"
 target: "indev-X34"
 author: "prplwtf"

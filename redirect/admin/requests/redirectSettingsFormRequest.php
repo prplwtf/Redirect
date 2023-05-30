@@ -12,18 +12,18 @@ class bpidentifierreplaceSettingsFormRequest extends AdminFormRequest
     public function rules(): array
     {
         return [
-            'placeholder' => 'string',
-
-            'site:html' => 'string',
+            'rname' => 'string',
+            'rurl' => 'string',
+            'rdel' => 'string',
         ];
     }
 
     public function attributes(): array
     {
         return [
-            'placeholder' => 'placeholder',
-
-            'site:html' => 'Site HTML',
+            'rname' => 'Redirect Name',
+            'rurl' => 'Redirect URL',
+            'rdel' => 'Redirect to Remove',
         ];
     }
 }
