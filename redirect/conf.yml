@@ -34,9 +34,9 @@ migrations:
   directory: ""
 
 publicfiles:
-  enabled: "no"
-  directory: ""
+  enabled: "yes"
+  directory: "public"
 
 adminrequests:
-  enabled: "no"
-  directory: ""
+  enabled: "yes"
+  directory: "admin/requests"
