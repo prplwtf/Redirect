@@ -1,0 +1,42 @@
+# ◆
+# Thank you for developing with Blueprint.
+# For documentation about conf.yml, refer to ptero.shop/dev/conf.
+
+
+name: "Redirect"
+identifier: "redirect"
+description: "Create URL redirects in seconds."
+flags: ""
+version: "1.0"
+target: "indev-X34"
+author: "prplwtf"
+icon: "assets/logo.jpg"
+
+
+
+view:
+  location: "admin/view.blade.php"
+
+controller:
+  type: "custom"
+  location: "admin/controller.php"
+
+datafolder:
+  directory: "data"
+
+
+css:
+  enabled: "no"
+  location: ""
+
+migrations:
+  enabled: "no"
+  directory: ""
+
+publicfiles:
+  enabled: "no"
+  directory: ""
+
+adminrequests:
+  enabled: "no"
+  directory: ""
