@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ls public/r/;
+ls ^#datapath#^/storage/redirects;
