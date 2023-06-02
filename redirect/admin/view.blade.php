@@ -7,7 +7,7 @@
         <h3 class="box-title"><i class='bx bxs-direction-left' style='margin-right:5px;'></i></i>Redirects</h3>
       </div>
       <div class="box-body">
-        {{ $redirects }}
+        <code>{{ $redirects }}</code>
       </div>
     </div>
 

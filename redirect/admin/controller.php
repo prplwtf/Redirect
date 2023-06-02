@@ -48,10 +48,16 @@ class bpidentifierreplaceExtensionController extends Controller
       $this->blueprint->dbSet('^#identifier#^', 'rdel', '');
     };
 
+    # LIST REDIRECTS
+    $redirs=shell_exec("cd ^#path#^;bash ^#datapath#^/scripts/listRedirect.sh");
+    if($redirs == "") {
+      $redirs="You don't have any redirects, time to make one!";
+    };
+
     return $this->view->make(
       'admin.extensions.^#identifier#^.index', [
         'blueprint' => $this->blueprint,
-        'redirects' => shell_exec("cd ^#path#^;bash ^#datapath#^/scripts/listRedirect.sh"),
+        'redirects' => $redirs,
         'root' => "/admin/extensions/blueprint",
       ]
     );
