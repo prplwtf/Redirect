@@ -8,7 +8,7 @@ identifier: "redirect"
 description: "Create URL redirects in seconds."
 flags: "-run.afterinstall;"
 version: "1.0"
-target: "indev-X34"
+target: "indev-XFC"
 author: "prplwtf"
 icon: "assets/logo.jpg"
 
