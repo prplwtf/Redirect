@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ls ^#datapath#^/storage/redirects;
+ls ^#datapath#^/storage/redirects/;
