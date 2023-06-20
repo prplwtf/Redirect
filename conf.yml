@@ -7,10 +7,11 @@ info:
   identifier: "redirect"
   description: "Create URL redirects in seconds."
   flags: "-run.afterinstall;"
-  version: "1.1"
-  target: "alpha-T0R"
+  version: "1.2"
+  target: "alpha-ML7"
   author: "prplwtf"
   icon: "assets/logo.jpg"
+  website: "github.com/prplwtf/blueprint-redirect"
 
 admin:
   view: "admin/view.blade.php"
