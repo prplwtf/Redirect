@@ -1,4 +1,3 @@
-# ◆
 # Thank you for developing with Blueprint.
 # For documentation about conf.yml, refer to ptero.shop/dev/conf.
 
@@ -7,8 +6,8 @@ info:
   identifier: "redirect"
   description: "Create URL redirects in seconds."
   flags: "-run.afterinstall;"
-  version: "1.2"
-  target: "alpha-ML7"
+  version: "1.3"
+  target: "alpha-EV0"
   author: "prplwtf"
   icon: "assets/logo.jpg"
   website: "github.com/prplwtf/blueprint-redirect"
@@ -16,7 +15,6 @@ info:
 admin:
   view: "admin/view.blade.php"
   controller: "admin/controller.php"
-  requests: "admin/requests"
   css: ""
 
 data:
