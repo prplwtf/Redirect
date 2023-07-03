@@ -1,5 +1,3 @@
-## redirect.blueprint is currently broken, please [build from source](https://documentation.ptero.shop/guides/getting-your-extension-ready-for-installation).
-
 Powered by [teamblueprint/main](https://github.com/teamblueprint/main).
 
 Automatic indexing needs to be enabled in NGINX before this works. Some installations have this enabled by default, so you might get away with not doing it. [Learn how to enable it here.](https://nginx.org/en/docs/http/ngx_http_autoindex_module.html)
