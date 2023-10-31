@@ -1,10 +1,25 @@
-Powered by [teamblueprint/main](https://github.com/teamblueprint/main).
+<h3 align="center">Redirect</h3>
 
-Automatic indexing needs to be enabled in NGINX before this works. Some installations have this enabled by default, so you might get away with not doing it. [Learn how to enable it here.](https://nginx.org/en/docs/http/ngx_http_autoindex_module.html)
+<p align="center"><i>
+  <a href="https://github.com/teamblueprint/main">blueprint</a> · 
+  <a href="https://github.com/pterodactyl/panel">pterodactyl</a>
+</i></p>
 
-This is the first extension for Blueprint mainly to demonstrate what the framework is capable of. Learn how to create your own extensions at [ptero.shop/docs](https://ptero.shop/docs).
-Don't have Blueprint yet? You'll need it to install this extension. [Get it here](htttps://ptero.shop).
 
-![image](https://i.imgur.com/ByY19h1.png)
 
-I will not provide any support for this extension, nor will I guarantee updates for it. This is just a quick personal project that is probably functional. ;)
+<p align="center">Create URL redirects within seconds, right within your admin panel.</p>
+
+<br>
+
+> **Important**
+> This tool may not be maintained and might break with new releases of both Pterodactyl and Blueprint. Please use at your own risk, little to no support is provided with this extension.
+
+<br><br>
+
+### Installation
+To install this extension, download the latest release of Redirect and drag the `redirect.blueprint` file over to your Pterodactyl installation folder. Then, run `blueprint -install redirect` to finish the installation process.
+
+<br>
+
+### Removal
+To remove Redirect from your Pterodactyl panel, run `blueprint -remove redirect`.
