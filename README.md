@@ -22,4 +22,9 @@ To install this extension, download the latest release of Redirect and drag the 
 <br>
 
 ### Removal
-To remove Redirect from your Pterodactyl panel, run `blueprint -remove redirect`.
+To remove Redirect from your Pterodactyl panel, run `blueprint -remove redirect`. This might not remove all of your redirects, so remove them before removing Redirect.
+
+<br>
+
+### Screenshots
+![image](https://github.com/prplwtf/blueprint-redirect/assets/103201875/958ea4eb-f954-4e13-a0da-c662891ccce1)
