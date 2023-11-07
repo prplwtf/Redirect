@@ -19,8 +19,8 @@ class __identifier__SettingsFormRequest extends AdminFormRequest
     public function rules(): array
     {
         return [
-            'rname' => 'string',
-            'rurl' => 'string',
+            'rname' => 'string|not_regex:/\//',
+            'rurl' => 'string|url:http,https',
             'rdel' => 'string',
         ];
     }

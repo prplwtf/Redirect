@@ -30,7 +30,7 @@
             <div class="col-xs-9">
               <label class="control-label">Destination</label>
               <input type="text" required name="rurl" id="rurl" value="" class="form-control"/>
-              <p class="text-muted small">Users will be redirected to this url. You only need to provide a path if the destination is on the same domain as Pterodactyl.</p>
+              <p class="text-muted small">Users will be redirected to this url. Must start with HTTP or HTTPS.</p>
             </div>
           </div>
         </div>

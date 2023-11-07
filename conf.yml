@@ -6,10 +6,10 @@ info:
   identifier: "redirect"
   description: "Create URL redirects in seconds."
   flags: "hasInstallScript"
-  version: "1.3.1"
-  target: "alpha-EV0"
+  version: "1.3.2"
+  target: "alpha-IPS"
   author: "prplwtf"
-  icon: "assets/logo.jpg"
+  icon: "redirect.jpg"
   website: "github.com/prplwtf/blueprint-redirect"
 
 admin:
@@ -18,7 +18,7 @@ admin:
   css: ""
 
 data:
-  directory: "data"
+  directory: "private"
   public: "public"
 
 database:
