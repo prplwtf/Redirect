@@ -1,3 +1,3 @@
 #!/bin/bash
 
-chown -R www-data:www-data "^#datapath#^/*";
+chown -R www-data:www-data "^#datapath#^/"*;
