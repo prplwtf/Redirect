@@ -5,13 +5,11 @@
   <a href="https://github.com/pterodactyl/panel">pterodactyl</a>
 </i></p>
 
-
-
 <p align="center">Create URL redirects within seconds, right within your admin panel.</p>
 
 <br>
 
-> **Important**
+> [!IMPORTANT]
 > This tool may not be maintained and might break with new releases of both Pterodactyl and Blueprint. Please use at your own risk, little to no support is provided with this extension.
 
 <br><br>
